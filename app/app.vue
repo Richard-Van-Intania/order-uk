@@ -1,3 +1,3 @@
 <template>
-  <div class="text-green-600 bg-fuchsia-700 flex">holaaaa</div>
+  <div class="flex bg-amber-300">holaaaa</div>
 </template>

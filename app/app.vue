@@ -1,3 +1,3 @@
 <template>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div class="text-green-600 bg-fuchsia-700 flex">holaaaa</div>
 </template>

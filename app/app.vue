@@ -1,3 +1,3 @@
 <template>
-  <div class="flex bg-amber-300">holaaaa</div>
+    <div class="flex bg-primary-orange">holaaaa</div>
 </template>

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div class="font-bold text-4xl">ss</div>
+    <HomeTopCard></HomeTopCard>
 </template>
 
 <style scoped></style>

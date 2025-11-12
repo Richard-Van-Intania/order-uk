@@ -16,7 +16,7 @@
             <div class="w-14"></div>
             <div class="pl-5 pr-4 h-full bg-primary-green rounded-bl-2xl flex justify-center items-center cursor-pointer relative" v-on:click="onClicked('Promo: ORDER5')">
                 <Icon name="ri:shopping-basket-fill" style="color: white" size="32px"></Icon>
-                <Icon name="ri:checkbox-circle-fill" style="color: white" size="24px" class="absolute right-2 bottom-2 z-10"></Icon>
+                <Icon name="ri:checkbox-circle-fill" style="color: white" size="24px" class="absolute right-2 bottom-2"></Icon>
             </div>
             <div class="px-4 h-full bg-primary-green flex justify-center items-center text-[16px] font-semibold text-white border-l">23 Items</div>
             <div class="px-4 h-full bg-primary-green flex justify-center items-center text-[16px] font-semibold text-white border-x">GBP 79.89</div>

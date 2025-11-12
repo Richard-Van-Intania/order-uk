@@ -6,12 +6,7 @@
 
 @theme {
     --color-primary-orange: #fc8a06;
+    --color-nav-gray: #fafafa;
 }
 
-@font-face {
-    font-family: "Poppins";
-    src: url("fonts/mycustomfont.ttf") format("truetype"); /* Path to your .ttf file and its format */
-    font-weight: normal; /* Optional: Define font weight */
-    font-style: normal; /* Optional: Define font style */
-    font-display: swap; /* Optional: Controls font loading behavior */
-}
+/*FAFAFA*/

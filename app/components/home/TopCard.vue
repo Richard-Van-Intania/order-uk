@@ -23,6 +23,8 @@ function submitted() {
     <NuxtImg src="/images/Untitled-2 1.png" height="455" class="absolute -bottom-px right-60"></NuxtImg>
     <NuxtImg src="/images/Untitled-1 1.png" height="537" class="absolute -bottom-px right-[300px]"></NuxtImg>
     <HomeStepCard v-bind:step="1" label="We've received your order!" body="Awaiting Restaurant acceptance" class="absolute right-[90px] top-[45px]"></HomeStepCard>
+    <HomeStepCard v-bind:step="2" label="Order Accepted! ✅" body="Your order will be delivered shortly" class="absolute right-6 top-[200px]"></HomeStepCard>
+    <HomeStepCard v-bind:step="3" label="Your rider's nearby 🎉" body="They're almost there - get ready!" class="absolute bottom-12 right-14"></HomeStepCard>
   </div>
 </template>
 

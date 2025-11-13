@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="h-[180px] w-[390px]">
+  <div class="h-[180px] w-[320px]">
     <div class="relative h-full w-full">
       <div class="selector absolute right-6 top-2">{{ step }}</div>
       <div class="absolute bg-white rounded-2xl bottom-0 left-0 right-0 px-5 py-4 flex">

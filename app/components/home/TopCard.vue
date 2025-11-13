@@ -10,7 +10,7 @@ function submitted() {
 </script>
 
 <template>
-  <div class="h-[610px] bg-top-gray border border-blk-op-20 rounded-2xl flex flex-col justify-center items-start pl-10">
+  <div class="h-[610px] bg-top-gray border border-blk-op-20 rounded-2xl flex flex-col justify-center items-start pl-10 relative">
     <div class="text-primary-black">Order Restaurant food, takeaway and groceries.</div>
     <div class="text-primary-black text-[54px] font-semibold">Feast Your Senses,</div>
     <div class="text-primary-orange text-[54px] font-semibold leading-none">Fast and Fresh</div>
@@ -19,6 +19,7 @@ function submitted() {
       <input v-model="inputValue" type="text" placeholder="e.g. EC4R 3TE" class="flex-1 border-none outline-none px-7" v-on:keyup.enter="submitted()" />
       <button type="submit" class="h-14 bg-primary-orange rounded-full px-16 text-[16px] font-bold text-white cursor-pointer" v-on:click="submitted()">Search</button>
     </div>
+    <div class="absolute h-[565px] w-[626px] -bottom-px -right-px bg-primary-orange rounded-br-2xl rounded-tl-[280px]"></div>
   </div>
 </template>
 

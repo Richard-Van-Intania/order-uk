@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    <HomeTopCard></HomeTopCard>
+  <HomeTopCard></HomeTopCard>
 </template>
 
 <style scoped></style>

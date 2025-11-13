@@ -22,6 +22,7 @@ function submitted() {
     <div class="absolute h-[565px] w-[626px] -bottom-px -right-px bg-primary-orange rounded-br-2xl rounded-tl-[300px]"></div>
     <NuxtImg src="/images/Untitled-2 1.png" height="455" class="absolute -bottom-px right-60"></NuxtImg>
     <NuxtImg src="/images/Untitled-1 1.png" height="537" class="absolute -bottom-px right-[300px]"></NuxtImg>
+    <HomeStepCard v-bind:step="1" label="We've received your order!" body="Awaiting Restaurant acceptance" class="absolute right-[90px] top-[45px]"></HomeStepCard>
   </div>
 </template>
 

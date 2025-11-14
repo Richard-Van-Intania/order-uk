@@ -2,7 +2,8 @@
 
 <template>
     <HomeTopCard v-on:handle-submitted="(inputValue: string) => onClicked(inputValue)"></HomeTopCard>
-    <div class="pb-8 pt-8"><HomeAboutCard></HomeAboutCard></div>
+    <div class="h-8"></div>
+    <div class="pb-8"><HomeAboutCard></HomeAboutCard></div>
     <div class="pb-8"><HomeStatisticCard></HomeStatisticCard></div>
 </template>
 

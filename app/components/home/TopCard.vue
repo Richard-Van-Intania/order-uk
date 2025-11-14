@@ -15,8 +15,8 @@ function submitted() {
     <div class="text-primary-black text-[54px] font-semibold">Feast Your Senses,</div>
     <div class="text-primary-orange text-[54px] font-semibold leading-none">Fast and Fresh</div>
     <div class="text-primary-black text-[13px] pt-10 pb-2">Enter a postcode to see what we deliver</div>
-    <div class="bg-white h-14 w-[480px] border border-blk-op-40 flex items-center rounded-full z-10">
-      <input v-model="inputValue" type="text" placeholder="e.g. EC4R 3TE" class="flex-1 border-none outline-none px-7" v-on:keyup.enter="submitted()" />
+    <div class="bg-white h-14 border-t border-l border-b border-blk-op-40 flex items-center rounded-full z-10">
+      <input v-model="inputValue" type="text" placeholder="e.g. EC4R 3TE" class="flex-1 border-none outline-none pl-7 pr-4 w-60" v-on:keyup.enter="submitted()" />
       <button type="submit" class="h-14 bg-primary-orange rounded-full px-16 text-[16px] font-bold text-white cursor-pointer" v-on:click="submitted()">Search</button>
     </div>
     <div class="absolute h-[565px] w-[626px] -bottom-px -right-px bg-primary-orange rounded-br-2xl rounded-tl-[300px]"></div>

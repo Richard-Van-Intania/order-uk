@@ -12,3 +12,11 @@ export enum CurrentAbount {
   Partner,
   Help,
 }
+
+export enum CurrentFrequent {
+  How,
+  What,
+  Can,
+  Are,
+  Is,
+}

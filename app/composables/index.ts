@@ -17,3 +17,13 @@ export function useCurrentAbout() {
 
   return { currentAbout, setNewAbout };
 }
+
+export function useCurrentFrequent() {
+  const currentFrequent = useState<CurrentFrequent>("CurrentFrequentKey", () => CurrentFrequent.How);
+
+  function setNewFrequent(newFrequent: CurrentFrequent): void {
+    currentFrequent.value = newFrequent;
+  }
+
+  return { currentFrequent, setNewFrequent };
+}

@@ -6,9 +6,9 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="flex flex-col items-center">
-        <div>{{ props.stat }}+</div>
-        <div>{{ props.label }}</div>
+    <div class="flex flex-col items-center text-white">
+        <div class="text-[64px] font-light leading-none">{{ formatNumber(props.stat) }}+</div>
+        <div class="text-[24px] font-bold">{{ props.label }}</div>
     </div>
 </template>
 

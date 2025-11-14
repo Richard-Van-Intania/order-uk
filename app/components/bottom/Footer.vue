@@ -7,13 +7,12 @@ function submitted() {
 
 <template>
   <div class="bg-footer-gray-60 p-14 flex items-center">
-    <div class="flex flex-col">
+    <div class="flex flex-col flex-1">
       <div><NuxtImg src="/images/LOGO 2(1).png" height="66"></NuxtImg></div>
       <div><NuxtImg src="/images/Group.png" height="53" class="py-7"></NuxtImg></div>
       <div class="text-[15px]">Company # 490039-445, Registered with House of companies.</div>
     </div>
-    <div class="flex-1"></div>
-    <div class="flex flex-col">
+    <div class="flex flex-col pl-7">
       <div class="footer-head pb-7">Get Exclusive Deals in your Inbox</div>
       <div class="flex items-center rounded-full bg-footer-gray">
         <input v-model="inputValue" type="text" placeholder="youremail@gmail.com" class="border-none outline-none pl-7 pr-4 w-[280px] h-[60px]" v-on:keyup.enter="submitted()" />
